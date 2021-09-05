@@ -1,0 +1,158 @@
+:root {
+  --primary: #ef9273;
+  --secondary: #0d0d0d;
+  --background: #fef9f8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 95%;
+  margin: auto;
+  margin-top: 0;
+  scroll-behavior: smooth;
+  background-color: var(--background);
+  color: var(--secondary);
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #fef9f8;
+  border-radius: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  text-align: right;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0rem 0.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+nav h4 {
+  font-weight: bold;
+  color: var(--primary);
+}
+
+.active {
+  font-weight: bold;
+  color: var(--primary);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1.5rem;
+  height: calc(100vh - 53px);
+}
+
+header img {
+  height: 300px;
+  display: block;
+}
+
+section {
+  padding: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+section h2 {
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+section a {
+  text-decoration: none;
+  text-align: center;
+  background-color: var(--background);
+  color: var(--primary);
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary);
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+section ul {
+  list-style: none;
+  text-align: center;
+}
+
+section li {
+  display: inline-block;
+  padding: 1rem;
+}
+
+p {
+  padding: 1rem;
+}
+
+#about {
+  background-color: var(--primary);
+  padding: 1rem 2rem;
+  text-align: justify;
+  border-radius: 1rem;
+}
+
+#skills {
+  background-color: var(--primary);
+  padding: 1rem 2rem;
+  text-align: justify;
+  border-radius: 1rem;
+}
+
+#projects {
+  background-color: var(--primary);
+  padding: 1rem 2rem;
+  text-align: justify;
+  border-radius: 1rem;
+}
+
+#blogs {
+  background-color: var(--primary);
+  padding: 1rem 2rem;
+  text-align: justify;
+  border-radius: 1rem;
+}
+
+.footer {
+  align-content: center;
+  padding: 1rem;
+  bottom: 0%;
+  position: scroll;
+}
+
+.social-container {
+  margin-top: 0rem;
+  flex-direction: column;
+  align-content: center;
+}
+
+.social-icons {
+  padding: 0rem 1rem;
+  margin: auto;
+  margin-bottom: 1rem;
+}
