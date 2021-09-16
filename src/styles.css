@@ -84,6 +84,7 @@ section h2 {
   text-align: center;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  margin-right: auto;
 }
 
 section a {
@@ -108,6 +109,62 @@ section li {
 
 p {
   padding: 1rem;
+}
+
+h1 {
+  text-align: center;
+  padding: 1rem;
+  margin: auto;
+}
+
+hr {
+  max-width: 90%;
+  margin: auto;
+}
+
+.projectTitle {
+  text-align: left;
+  padding-left: 1rem;
+  padding-bottom: 0.6rem;
+  padding-top: none;
+}
+
+section button {
+  align-items: left;
+  margin-left: 1rem;
+  padding: 0.3rem;
+  background-color: transparent;
+  border-radius: 0.5rem;
+  border: 0.1em solid var(--secondary);
+}
+
+section p {
+  color: var(--secondary);
+  font-weight: bold;
+}
+
+section img {
+  width: 300px;
+  display: block;
+  border-radius: 0.3rem;
+}
+
+.projectContent {
+  display: flex;
+  align-items: left;
+}
+
+.buttons {
+  display: flex;
+  padding-left: 1rem;
+  padding-top: 0.4rem;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.primary {
+  background-color: var(--primary);
+  color: var(--secondary);
 }
 
 #about {
@@ -136,6 +193,17 @@ p {
   padding: 1rem 2rem;
   text-align: justify;
   border-radius: 1rem;
+}
+
+#markFourteen {
+  color: var(--primary);
+  padding: 1rem 2rem;
+  text-align: justify;
+  border-radius: 1rem;
+  border: 0.2em solid var(--primary);
+  margin: auto;
+  margin-top: 1.5rem;
+  max-width: 85%;
 }
 
 .footer {
