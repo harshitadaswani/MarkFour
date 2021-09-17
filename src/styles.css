@@ -10,6 +10,13 @@
   box-sizing: border-box;
 }
 
+@media (max-width: 768px) {
+  .projectContent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
 body {
   max-width: 95%;
   margin: auto;
@@ -32,6 +39,8 @@ nav {
 }
 
 nav ul {
+  display: flex;
+  flex-direction: row;
   list-style: none;
   text-align: right;
 }
@@ -112,8 +121,6 @@ p {
 }
 
 h1 {
-  text-align: center;
-  padding: 1rem;
   margin: auto;
 }
 
@@ -127,44 +134,40 @@ hr {
   padding-left: 1rem;
   padding-bottom: 0.6rem;
   padding-top: none;
+  color: #2d2f78;
 }
 
-section button {
+.mark-label {
   align-items: left;
   margin-left: 1rem;
   padding: 0.3rem;
   background-color: transparent;
   border-radius: 0.5rem;
   border: 0.1em solid var(--secondary);
+  display: inline-block;
 }
 
 section p {
   color: var(--secondary);
   font-weight: bold;
-}
-
-section img {
-  width: 300px;
-  display: block;
-  border-radius: 0.3rem;
-}
-
-.projectContent {
-  display: flex;
-  align-items: left;
+  padding-top: 0.8rem;
+  padding-bottom: 1.5rem;
 }
 
 .buttons {
-  display: flex;
-  padding-left: 1rem;
-  padding-top: 0.4rem;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  padding: 0.4rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
   font-weight: bold;
-  justify-content: center;
+  display: inline-block;
 }
 
 .primary {
   background-color: var(--primary);
-  color: var(--secondary);
+  color: var(--background);
 }
 
 #about {
@@ -195,7 +198,12 @@ section img {
   border-radius: 1rem;
 }
 
-#markFourteen {
+#my-projects {
+  padding: 0.6rem;
+  text-align: center;
+}
+
+.mark {
   color: var(--primary);
   padding: 1rem 2rem;
   text-align: justify;
