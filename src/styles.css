@@ -35,7 +35,8 @@ nav {
   align-items: center;
   padding: 1rem;
   background-color: #fef9f8;
-  border-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
 
 nav ul {
@@ -201,6 +202,7 @@ section p {
 #my-projects {
   padding: 0.6rem;
   text-align: center;
+  color: #2d2f78;
 }
 
 .mark {
