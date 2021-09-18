@@ -142,6 +142,7 @@ hr {
 .mark-label {
   align-items: left;
   margin-left: 1rem;
+  margin-bottom: 0.8rem;
   padding: 0.3rem;
   background-color: transparent;
   border-radius: 0.5rem;
@@ -153,6 +154,7 @@ section p {
   color: var(--secondary);
   padding-top: 0.8rem;
   padding-bottom: 1.5rem;
+  font-size: 1.1rem;
 }
 
 .buttons {
