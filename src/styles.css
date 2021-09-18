@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri&display=swap");
+
 :root {
   --primary: #ef9273;
-  --secondary: #0d0d0d;
+  --secondary: #180f0b;
   --background: #fef9f8;
 }
 
@@ -24,6 +26,7 @@ body {
   scroll-behavior: smooth;
   background-color: var(--background);
   color: var(--secondary);
+  font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 nav {
@@ -78,6 +81,7 @@ header {
 header img {
   height: 300px;
   display: block;
+  padding-top: 0.6rem;
 }
 
 section {
