@@ -107,14 +107,15 @@ section a {
   padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
-section ul {
-  list-style: none;
+table {
+  border: none;
   text-align: center;
+  padding: 1rem;
+  margin: auto;
 }
 
-section li {
-  display: inline-block;
-  padding: 1rem;
+td img {
+  width: 64px;
 }
 
 p {
@@ -150,7 +151,6 @@ hr {
 
 section p {
   color: var(--secondary);
-  font-weight: bold;
   padding-top: 0.8rem;
   padding-bottom: 1.5rem;
 }
@@ -183,6 +183,11 @@ section p {
   padding: 1rem 2rem;
   text-align: justify;
   border-radius: 1rem;
+}
+
+.skill-title {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 #projects {
